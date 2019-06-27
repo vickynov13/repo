@@ -1,21 +1,16 @@
 {
-  "description": {
-    "title": "Contiguous U.S., Average Temperature",
-    "units": "Degrees Fahrenheit",
-    "base_period": "1901-2000"
+  "name": "How To Live Forever",
+  "artist": {
+    "name": "Michael Forrest",
+    "founded": 1982,
+    "members": [
+      "Michael Forrest"
+    ]
   },
-  "data": {
-    "189512": {
-      "value": "50.34",
-      "anomaly": "-1.68"
-    },
-    "189612": {
-      "value": "51.99",
-      "anomaly": "-0.03"
-    },
-    "189712": {
-      "value": "51.56",
-      "anomaly": "-0.46"
+  "tracks": [
+    {
+      "name": "Get Connected",
+      "duration": 208
     }
-  }
+  ]
 }
