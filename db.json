@@ -1,22 +1,21 @@
 {
-  "employees": [
-    {
-      "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
+  "description": {
+    "title": "Contiguous U.S., Average Temperature",
+    "units": "Degrees Fahrenheit",
+    "base_period": "1901-2000"
+  },
+  "data": {
+    "189512": {
+      "value": "50.34",
+      "anomaly": "-1.68"
     },
-    {
-      "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
+    "189612": {
+      "value": "51.99",
+      "anomaly": "-0.03"
     },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
+    "189712": {
+      "value": "51.56",
+      "anomaly": "-0.46"
     }
-  ]
+  }
 }
