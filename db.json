@@ -1,16 +1,20 @@
-{
-  "name": "How To Live Forever",
-  "artist": {
-    "name": "Michael Forrest",
-    "founded": 1982,
-    "members": [
-      "Michael Forrest"
-    ]
-  },
-  "tracks": [
-    {
-      "name": "Get Connected",
-      "duration": 208
-    }
-  ]
+{ 
+  "accounting" : [   
+                     { "firstName" : "John",  
+                       "lastName"  : "Doe",
+                       "age"       : 23 },
+
+                     { "firstName" : "Mary",  
+                       "lastName"  : "Smith",
+                        "age"      : 32 }
+                 ],                            
+  "sales"      : [ 
+                     { "firstName" : "Sally", 
+                       "lastName"  : "Green",
+                        "age"      : 27 },
+
+                     { "firstName" : "Jim",   
+                       "lastName"  : "Galley",
+                       "age"       : 41 }
+                 ] 
 }
