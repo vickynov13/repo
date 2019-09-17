@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <parameter name="paypalpass" value="Test1234"/>
+  <parameter name="bopisitem" value="16adiuvdcskfrbpsxgsh"/>
+  <parameter name="paypalemail" value="lakshmi.kandregula@dcsg.com"/>
+  <parameter name="ccyear" value="2022"/>
+  <parameter name="regemail" value="smoke0001@gmail.com"/>
+  <parameter name="ccmonth" value="06"/>
+  <parameter name="ccno" value="4111111111111111"/>
+  <parameter name="gemail" value="smoke0001@dicksqa.com"/>
+  <parameter name="ccpin" value="111"/>
+  <parameter name="newemail" value="smoke0002@gmail.com"/>
+  <parameter name="epass" value="Password@1"/>
+  <parameter name="paypalsku" value="16acuymn036xxxxxxapt"/>
+  <parameter name="regitem" value="16acuymn036xxxxxxapt"/>
+  <test name="NewTest(failed)">
+    <classes>
+      <class name="NewTest">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="aftermethod"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+          <include name="guestbopis" invocation-numbers="0"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- NewTest -->
+    </classes>
+  </test> <!-- NewTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<!-- 	<test name="Refer"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="Refer"></class> -->
+<!-- 			</classes> -->
+<!-- 	</test> -->
+	<test name="NewTest">	
+	<classes>
+		<class name="NewTest">
+		<methods>
+<!-- 			<include name="createaccount"></include> -->
+<!--   			<include name="checkoutreguser"></include> -->
+		<include name="guestbopis"></include>  			
+		</methods>
+		</class>
+	</classes>
+	</test>
+	<parameter name="regitem" value="16acuymn036xxxxxxapt"></parameter>
+	<parameter name="newemail" value="smoke0002@gmail.com"></parameter>
+	<parameter name="epass" value="Password@1"></parameter>
+	<parameter name="bopisitem" value="16adiuvdcskfrbpsxgsh"></parameter>
+	<parameter name="gemail" value="smoke0001@dicksqa.com"></parameter>
+	<parameter name="regemail" value="smoke0001@gmail.com"></parameter>
+	<parameter name="ccno" value="4111111111111111"></parameter>
+	<parameter name="ccmonth" value="06"></parameter>
+	<parameter name="ccpin" value="111"></parameter>
+	<parameter name="paypalsku" value="16acuymn036xxxxxxapt"></parameter>
+	<parameter name="paypalemail" value="lakshmi.kandregula@dcsg.com"></parameter>
+	<parameter name="paypalpass" value="Test1234"></parameter>
+	<parameter name="ccyear" value="2022"></parameter>
+</suite>
