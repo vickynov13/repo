@@ -1,11 +1,14 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "one",
+      "title": "hello"
+    },{
+      "id": "two",
       "title": "hello"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "myhook": {
+    "url": "https://mkp7tscx.myhook.io/"
   }
 }
